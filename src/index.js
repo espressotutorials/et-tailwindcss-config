@@ -2,7 +2,11 @@ module.exports = {
   purge: {
     mode: "all",
     preserveHtmlElements: false,
-    content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.ts"],
+    content: [
+      "./src/**/*.html",
+      "./src/**/*.js",
+      "./src/**/*.ts"
+    ],
   },
   prefix: '',
   important: false,
@@ -55,6 +59,7 @@ module.exports = {
         400: '#c2d7ff',
         500: '#33a8e0',
         600: '#195979',
+        700: '#0e4560',
       },
       facebook: {
         500: '#3b5998',
@@ -122,8 +127,20 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      serif: [
+        'Georgia',
+        'Cambria',
+        '"Times New Roman"',
+        'Times', 'serif'
+      ],
+      mono: [
+        'Menlo',
+        'Monaco',
+        'Consolas',
+        '"Liberation Mono"',
+        '"Courier New"',
+        'monospace'
+      ],
     },
   },
   plugins: [
