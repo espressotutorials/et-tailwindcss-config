@@ -1,13 +1,37 @@
 {
-  "name": "espresso-tailwind-config",
-  "version": "0.0.1",
+  "name": "@espressotutorialsgmbh/espresso-tailwind-config",
+  "version": "0.0.2",
   "author": "Espresso Tutorials",
   "keywords": [
     "tailwind",
     "tailwindcss",
-    "tailwind-css"
+    "tailwind-css",
+    "preset",
+    "espressotutorials"
   ],
-  "scripts": {},
-  "dependencies": { },
-  "devDependencies": {}
+  "description": "The espresso-tailwindcss-config library offers a basic tailwindcss preset. To show the Espresso Tutorials corporate identity across projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets env src -d ./",
+    "dev": "babel --presets env src -d ./ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espressotutorials/et-tailwindcss-config.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espressotutorials/et-tailwindcss-config/issues"
+  },
+  "homepage": "https://github.com/espressotutorials/et-tailwindcss-config#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "tailwindcss": "^2.1.4"
+  }
 }
