@@ -11,8 +11,7 @@ module.exports = {
         lg: '992px',
         xl: '1200px',
         xll: '1385px',
-        xxl: '1920px',
-        mobile: '1335px'
+        xxl: '1920px'
       },
       colors: {
         transparent: 'transparent',
@@ -135,6 +134,8 @@ module.exports = {
         lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
         xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
         '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+        center: '0px 0px 55px 0px rgba(0,0,0,0.27)',
+        centerMd: '0px 0px 25px 0px rgba(0,0,0,0.24)',
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
         outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
         none: 'none',
