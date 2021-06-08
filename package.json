@@ -1,0 +1,13 @@
+{
+  "name": "espresso-tailwind-config",
+  "version": "0.0.1",
+  "author": "Espresso Tutorials",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css"
+  ],
+  "scripts": {},
+  "dependencies": { },
+  "devDependencies": {}
+}
