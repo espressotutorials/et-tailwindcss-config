@@ -3,9 +3,7 @@ module.exports = {
     mode: "all",
     preserveHtmlElements: false,
     content: [
-      "./src/**/*.html",
-      "./src/**/*.js",
-      "./src/**/*.ts"
+      "./src/**/*.{html,js,ts}"
     ],
   },
   prefix: '',
