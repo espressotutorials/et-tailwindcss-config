@@ -14,7 +14,7 @@
   "scripts": {
     "build": "babel --presets env src -d ./",
     "dev": "babel --presets env src -d ./ --watch",
-    "release": "dotenv release-it --"
+    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
   },
   "repository": {
     "type": "git",
