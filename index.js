@@ -4,7 +4,7 @@ module.exports = {
   purge: {
     mode: "all",
     preserveHtmlElements: false,
-    content: ["./src/**/*.{html,js,ts}"]
+    content: ["./src/**/*.{js,ts}", "./src/**/*.html"]
   },
   prefix: '',
   important: false,
