@@ -1,11 +1,11 @@
+/** @type {import('tailwindcss').Config} */
 "use strict";
 
 module.exports = {
-  purge: {
-    mode: "all",
-    preserveHtmlElements: false,
-    content: ["./src/**/*.{js,ts}", "./src/**/*.html"]
-  },
+  content: [
+    './src/**/*.{js,ts}',
+    './src/**/*.html'
+  ],
   prefix: '',
   important: false,
   separator: ':',
