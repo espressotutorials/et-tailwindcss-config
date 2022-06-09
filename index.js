@@ -1,11 +1,8 @@
-/** @type {import('tailwindcss').Config} */
-"use strict";
+'use strict';
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.{js,ts}',
-    './src/**/*.html'
-  ],
+  content: ['./src/**/*.{js,ts}', './src/**/*.html'],
   prefix: '',
   important: false,
   separator: ':',
