@@ -26,18 +26,18 @@
   },
   "homepage": "https://github.com/espressotutorials/et-tailwindcss-config#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.19",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "dotenv-cli": "^7.1.0",
-    "postcss": "^8.4.21",
-    "release-it": "^17.0.0",
-    "tailwindcss": "^3.3.5"
+    "dotenv-cli": "^7.4.2",
+    "postcss": "^8.4.38",
+    "release-it": "^17.3.0",
+    "tailwindcss": "^3.4.4"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.13"
   },
   "release-it": {
     "github": {
